@@ -177,6 +177,11 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        /*
+         * Vendor Service Providers...
+         */
+        //Andreyco\Instagram\Support\Laravel\ServiceProvider\Instagram::class
+
     ],
 
     /*
@@ -225,7 +230,7 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
-
+        //'Instagram' => Andreyco\Instagram\Support\Laravel\Facade\Instagram::class
     ],
 
 ];
